@@ -24,6 +24,9 @@ anyone re‑derive it from scratch.
 - **[→ The origin‑distance tracker](https://original-bitcoin-laboratory.github.io/genesis/)** — pick
   an origin, pick a moment in history, and see how far each Bitcoin version stood from it.
   *Distance is neutral; the origin is a choice.*
+- **[→ Is it a Bitcoin?](https://original-bitcoin-laboratory.github.io/genesis/is-it-bitcoin.html)** — a
+  reasoning compass: state a few facts about any object (a paper, a chain, a token, an amount) and see
+  where it qualifies as *a* Bitcoin or *a* satoshi — and where the answer is convention, not fact.
 - **[→ Join the live network](https://github.com/original-bitcoin-laboratory/genesis/blob/main/docs/ANNOUNCE.md)** —
   a live, always‑on **JAN09‑X** node runs as a public bootstrap anchor. Clone the repo and
   `python -m netnode --chain jan09x --datadir ./data --connect 143.110.255.205:18009` to sync and
