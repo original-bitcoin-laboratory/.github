@@ -29,7 +29,7 @@ anyone re‑derive it from scratch.
   where it qualifies as *a* Bitcoin or *a* satoshi — and where the answer is convention, not fact.
 - **[→ Join the live network](https://github.com/original-bitcoin-laboratory/genesis/blob/main/docs/ANNOUNCE.md)** —
   a live, always‑on **JAN09‑X** node runs as a public bootstrap anchor. Clone the repo and
-  `python -m netnode --chain jan09x --datadir ./data --connect 143.110.255.205:18009` to sync and
+  `python -m netnode --chain jan09x --datadir ./data --connect seed.bitcoin-lab.org:18009` to sync and
   re‑validate the chain yourself. *Experimental. Not money.*
 
 ## What it found (honestly)
