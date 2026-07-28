@@ -21,12 +21,10 @@ anyone re‑derive it from scratch.
 
 ## Try it live
 
-- **[→ The origin‑distance tracker](https://original-bitcoin-laboratory.github.io/genesis/)** — pick
-  an origin, pick a moment in history, and see how far each Bitcoin version stood from it.
-  *Distance is neutral; the origin is a choice.*
-- **[→ Is it a Bitcoin?](https://original-bitcoin-laboratory.github.io/genesis/is-it-bitcoin.html)** — a
-  reasoning compass: state a few facts about any object (a paper, a chain, a token, an amount) and see
-  where it qualifies as *a* Bitcoin or *a* satoshi — and where the answer is convention, not fact.
+- **[→ bitcoin-lab.org](https://bitcoin-lab.org/)** — the lab's home: the **origin‑distance tracker**
+  (how far each Bitcoin version stood from a chosen origin) and the **"Is it a Bitcoin?" compass**
+  (where an object qualifies as *a* Bitcoin or *a* satoshi — and where the answer is convention, not
+  fact). *Distance is neutral; the origin is a choice.*
 - **[→ Join the live network](https://github.com/original-bitcoin-laboratory/genesis/blob/main/docs/ANNOUNCE.md)** —
   two always‑on anchors run both reconstructions: **JAN09‑X** at `seed.bitcoin-lab.org:18009` and
   **NOV08‑X** at `seed.bitcoin-lab.org:18008` (its own genesis + leading‑zero‑bits PoW). Clone the repo
