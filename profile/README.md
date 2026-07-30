@@ -45,6 +45,10 @@ anyone re‑derive it from scratch.
   the Script interpreter up to a full `bitcoin.exe` linked from the unmodified code (i686 · OpenSSL
   1.0.2 · wxWidgets 2.8 · BDB · Boost) — settling the *reproducible period build* end to end
   ([build‑reconstruction](https://github.com/original-bitcoin-laboratory/genesis/tree/main/derivatives/build-reconstruction)).
+- Two unmodified 2009 nodes, air‑gapped, **produced and relayed a block** — one mined block 1 at
+  real difficulty 1 on the historical genesis and the other received and accepted it, both block
+  files byte‑identical, verified from the raw bytes
+  ([two‑node witness](https://github.com/original-bitcoin-laboratory/genesis/tree/main/r3-findings/2026-07-31-twonode-mined-block)).
 
 ## Boundaries
 
@@ -53,5 +57,5 @@ promises. Authority is **only** the two hash‑verified archives + the whitepape
 is measured neutrally against them. Reproduce everything with
 `python genesis/scripts/reproduce.py`.
 
-MIT © 2026 Parth Mauria Saxena (laboratory tooling); the historical Bitcoin sources retain
-Satoshi Nakamoto's 2009 MIT notice.
+MIT © 2026 [parthod0x](https://github.com/original-bitcoin-laboratory) (laboratory tooling); the
+historical Bitcoin sources retain Satoshi Nakamoto's 2009 MIT notice.
