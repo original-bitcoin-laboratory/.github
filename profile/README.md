@@ -41,6 +41,10 @@ anyone re‑derive it from scratch.
 - Two reconstructions — **NOV08‑X** and **JAN09‑X** — carry the complete original vocabulary.
   They are released as **candidates** (*"a* Bitcoin"), **never** as *"the* Bitcoin": which live
   network "is" Bitcoin has no factual answer — only convention.
+- The original source still **builds and runs on a pinned period toolchain** — from `sha.cpp` and
+  the Script interpreter up to a full `bitcoin.exe` linked from the unmodified code (i686 · OpenSSL
+  1.0.2 · wxWidgets 2.8 · BDB · Boost) — settling the *reproducible period build* end to end
+  ([build‑reconstruction](https://github.com/original-bitcoin-laboratory/genesis/tree/main/derivatives/build-reconstruction)).
 
 ## Boundaries
 
