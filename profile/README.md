@@ -21,7 +21,7 @@ a reconstruction, and it does not interoperate with the two above.
   executable reconstruction of Bitcoin **v0.1.0** + derivatives (script engine, UTXO ledger,
   wallet, P2P, the origin‑distance tracker, and more) — and the home of the
   **Bitcoin** chain ([`derivatives/bitcoin/`](https://github.com/original-bitcoin-laboratory/genesis/tree/main/derivatives/bitcoin)),
-  released as `Bitcoin-v0.1.0`.
+  released as `Bitcoin-v0.1.1`.
 - **[pre‑genesis](https://github.com/original-bitcoin-laboratory/pre-genesis)** — **OBL‑NOV08**:
   the Nov 2008 pre‑release witness + source inventory.
 
