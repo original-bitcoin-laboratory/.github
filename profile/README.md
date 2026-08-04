@@ -8,6 +8,10 @@ privileged**.
 Most of Bitcoin's origin story is prose. This lab makes the earliest code **run**, and lets
 anyone re‑derive it from scratch.
 
+A third chain lives here too — **[Bitcoin](https://bitcoin-lab.org/bitcoin)** — which runs that same
+v0.1.0 client on a genesis of its own, with its own network and its own signed release. It is **not**
+a reconstruction, and it does not interoperate with the two above.
+
 ## Repositories
 
 - **[common](https://github.com/original-bitcoin-laboratory/common)** — the umbrella: what
@@ -15,7 +19,9 @@ anyone re‑derive it from scratch.
   the neutral conformance + attack‑surface matrices, and the release framing.
 - **[genesis](https://github.com/original-bitcoin-laboratory/genesis)** — **OBL‑JAN09**: the full
   executable reconstruction of Bitcoin **v0.1.0** + derivatives (script engine, UTXO ledger,
-  wallet, P2P, the origin‑distance tracker, and more).
+  wallet, P2P, the origin‑distance tracker, and more) — and the home of the
+  **Bitcoin** chain ([`derivatives/bitcoin/`](https://github.com/original-bitcoin-laboratory/genesis/tree/main/derivatives/bitcoin)),
+  released as `Bitcoin-v0.1.0`.
 - **[pre‑genesis](https://github.com/original-bitcoin-laboratory/pre-genesis)** — **OBL‑NOV08**:
   the Nov 2008 pre‑release witness + source inventory.
 
@@ -30,6 +36,10 @@ anyone re‑derive it from scratch.
   **NOV08‑X** at `seed.bitcoin-lab.org:18008` (its own genesis + leading‑zero‑bits PoW). Clone the repo
   and `python -m netnode --chain jan09x --datadir ./data --connect seed.bitcoin-lab.org:18009` (or
   `--chain nov08x … :18008`) to sync and re‑validate a chain yourself. *Experimental. Not money.*
+- **[→ Bitcoin](https://bitcoin-lab.org/bitcoin)** — a separate chain on its own seed:
+  `python -m netnode --chain bitcoin --datadir ./data --connect bitcoin.bitcoin-lab.org:18026`.
+  Genesis `00000000ad12f3ec…`, mined at the original difficulty‑1, its coinbase carrying the front
+  page of the day it was mined. Block 1 is unmined and anyone may take it. *Not money.*
 
 ## What it found (honestly)
 
