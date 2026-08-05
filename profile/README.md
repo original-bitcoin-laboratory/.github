@@ -60,6 +60,17 @@ a reconstruction, and it does not interoperate with the two above.
   files byte‑identical, verified from the raw bytes
   ([two‑node witness](https://github.com/original-bitcoin-laboratory/genesis/tree/main/r3-findings/2026-07-31-twonode-mined-block)).
 
+## The other half
+
+**[satoshi-onchain](https://github.com/satoshi-onchain)** · [satoshioncha.in](https://satoshioncha.in)
+— the verifiable on-chain footprint of the original Satoshi, graded **[forensic], never
+[cryptographic]**.
+
+Two halves of one question, answered with different evidence. This laboratory gets to the bottom of
+**Bitcoin** by making the earliest code run and re-derive. That organization gets to the bottom of
+**Satoshi** by measuring what the chain itself records and refusing to grade it above what the
+evidence supports. Neither leans on the other's conclusions.
+
 ## Boundaries
 
 **Not money.** The experimental chains are stamped *"not money"* — no premine, no sale, no
