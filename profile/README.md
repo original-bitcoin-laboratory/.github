@@ -1,7 +1,7 @@
 # Original Bitcoin Laboratory
 
 **An evidence‑first, *executable* reconstruction and neutral conformance study of the earliest
-Bitcoin** — the **November 2008 pre‑release** and the **January 2009 v0.1.0** genesis client —
+Bitcoin** — the **November 2008 pre‑release** and the **January 2009 released client** —
 built entirely from two hash‑verified archives, with **nothing disabled** and **no chain
 privileged**.
 
@@ -9,8 +9,10 @@ Most of Bitcoin's origin story is prose. This lab makes the earliest code **run*
 anyone re‑derive it from scratch.
 
 A third chain lives here too — **[Bitcoin](https://bitcoin-lab.org/bitcoin)** — which runs that same
-v0.1.0 client on a genesis of its own, with its own network and its own signed release. It is **not**
-a reconstruction, and it does not interoperate with the two above.
+January 2009 client on a genesis of its own, with its own network and its own signed release. It is
+**not** a reconstruction, and it does not interoperate with the two above. It is the chain to look at
+first: it is the one executing Satoshi's actual binary on a live network, and **blocks 2–4 were mined
+by the released client itself**.
 
 ## Repositories
 
@@ -21,9 +23,13 @@ a reconstruction, and it does not interoperate with the two above.
   executable reconstruction of Bitcoin **v0.1.0** + derivatives (script engine, UTXO ledger,
   wallet, P2P, the origin‑distance tracker, and more) — and the home of the
   **Bitcoin** chain ([`derivatives/bitcoin/`](https://github.com/original-bitcoin-laboratory/genesis/tree/main/derivatives/bitcoin)),
-  released as `Bitcoin-v0.1.1`.
+  released as `Bitcoin-v0.1.4`.
 - **[pre‑genesis](https://github.com/original-bitcoin-laboratory/pre-genesis)** — **OBL‑NOV08**:
   the Nov 2008 pre‑release witness + source inventory.
+- **[bitcoin‑whitepaper](https://github.com/original-bitcoin-laboratory/bitcoin-whitepaper)** —
+  which whitepaper is which: four known versions, two held, one lost. Identify any copy from its
+  contents alone, and verify the canonical one against the block chain it is embedded in.
+  [bitcoinwhitepaper.online](https://bitcoinwhitepaper.online)
 
 ## Try it live
 
@@ -32,14 +38,21 @@ a reconstruction, and it does not interoperate with the two above.
   (where an object qualifies as *a* Bitcoin or *a* satoshi — and where the answer is convention, not
   fact). *Distance is neutral; the origin is a choice.*
 - **[→ Join the live network](https://github.com/original-bitcoin-laboratory/genesis/blob/main/docs/ANNOUNCE.md)** —
-  two always‑on anchors run both reconstructions: **JAN09‑X** at `seed.bitcoin-lab.org:18009` and
-  **NOV08‑X** at `seed.bitcoin-lab.org:18008` (its own genesis + leading‑zero‑bits PoW). Clone the repo
-  and `python -m netnode --chain jan09x --datadir ./data --connect seed.bitcoin-lab.org:18009` (or
-  `--chain nov08x … :18008`) to sync and re‑validate a chain yourself. *Experimental. Not money.*
-- **[→ Bitcoin](https://bitcoin-lab.org/bitcoin)** — a separate chain on its own seed:
-  `python -m netnode --chain bitcoin --datadir ./data --connect bitcoin.bitcoin-lab.org:18026`.
-  Genesis `00000000ad12f3ec…`, mined at the original difficulty‑1, its coinbase carrying the front
-  page of the day it was mined. Block 1 is unmined and anyone may take it. *Not money.*
+  **three** joinable chains. A node serves **Bitcoin**, and two always‑on anchors serve the two
+  reconstructions. Clone the repo and point a node at any of them — it syncs and independently
+  re‑validates every block. *Experimental. Not money.*
+
+  ```
+  bitcoin.bitcoin-lab.org:18026   Bitcoin  (genesis 00000000ad12f3ec… · magic f00ba726 · difficulty‑1)
+  seed.bitcoin-lab.org:18009      JAN09-X  (Jan 2009 released constitution · magic f00ba709)
+  seed.bitcoin-lab.org:18008      NOV08-X  (15 Nov 2008 pre-release · magic f00ba708 · leading-zero-bits PoW)
+  ```
+- **[→ Bitcoin](https://bitcoin-lab.org/bitcoin)** — genesis `00000000ad12f3ec…`, mined at the
+  original difficulty‑1, its coinbase carrying the front page of the day it was mined. The chain is
+  **live and still being mined**; the sealed evidence set currently covers blocks 0–4, and
+  [status.html](https://bitcoin-lab.org/status.html) reports the tip. *Not money.*
+- **[→ JAN09-X](https://bitcoin-lab.org/jan09x.html)** · **[→ NOV08-X](https://bitcoin-lab.org/nov08x.html)** — each reconstruction's own page: its genesis,
+  its constitution as a source‑anchored table, its isolated network identity, and its live height.
 
 ## What it found (honestly)
 
@@ -55,10 +68,13 @@ a reconstruction, and it does not interoperate with the two above.
   the Script interpreter up to a full `bitcoin.exe` linked from the unmodified code (i686 · OpenSSL
   1.0.2 · wxWidgets 2.8 · BDB · Boost) — settling the *reproducible period build* end to end
   ([build‑reconstruction](https://github.com/original-bitcoin-laboratory/genesis/tree/main/derivatives/build-reconstruction)).
-- Two unmodified 2009 nodes, air‑gapped, **produced and relayed a block** — one mined block 1 at
-  real difficulty 1 on the historical genesis and the other received and accepted it, both block
-  files byte‑identical, verified from the raw bytes
-  ([two‑node witness](https://github.com/original-bitcoin-laboratory/genesis/tree/main/r3-findings/2026-07-31-twonode-mined-block)).
+- Two unmodified 2009 nodes, air‑gapped, ran the whole lifecycle on the **historical genesis**:
+  mined and relayed a block at real difficulty 1, sustained bidirectional growth to a
+  byte‑identical 14‑block chain across a guest restart, survived a **real chain reorganisation**
+  (`*** REORGANIZE ***`, the losing node retaining its valid orphan), and finally **relayed a spend
+  of a matured coinbase** — matured under the client's own rule of **120 confirmations, not 100**.
+  Every result verified from the raw `blk0001.dat` bytes
+  ([the two‑node witness](https://bitcoin-lab.org/witness.html)).
 
 ## The other half
 
