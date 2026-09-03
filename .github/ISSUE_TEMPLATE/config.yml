@@ -1,0 +1,14 @@
+blank_issues_enabled: true
+contact_links:
+  - name: A missing bound in the 2008/2009 client
+    url: https://github.com/original-bitcoin-laboratory/.github/blob/main/SECURITY.md
+    about: >-
+      The historical clients ship almost none of the guardrails added from 2010 onward, and
+      reconstructing them faithfully reproduces those absences. That is the subject matter, not a
+      bug — please read the security policy before filing.
+  - name: Try the live chains
+    url: https://bitcoin-lab.org/
+    about: The origin-distance tracker, the three joinable chains, and the two-node witness.
+  - name: Security contact
+    url: https://bitcoin-lab.org/.well-known/security.txt
+    about: For the narrow cases where a report should not be public.
