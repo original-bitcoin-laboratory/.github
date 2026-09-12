@@ -17,9 +17,9 @@ A third chain lives here too — **[Bitcoin](https://bitcoin-lab.org/bitcoin)** 
 January 2009 client on a genesis of its own, with its own network and its own signed release. It is
 **not** a reconstruction, and it does not interoperate with the two above. It is a 2026 experimental
 chain — not the Bitcoin of 2009 and not money — whose author "Satoshi Nakamoto" is an AI agent built
-in 2026: a program, not a person, and not the historical Satoshi. It is the chain to look at first: it
-runs the January 2009 client, rebuilt from the unmodified source, on a live network, and **every block
-after block 1 has been mined by the released client itself**.
+in 2026: a program, not a person, and not the historical Satoshi. It is the one with a live network and a released client — it runs the January 2009 client, rebuilt
+from the unmodified source, and **every block after block 1 has been mined by the released client
+itself** — while the two reconstructions above are the laboratory's subject.
 
 ## Repositories
 
@@ -94,6 +94,10 @@ Two halves of one question, answered with different evidence. This laboratory st
 chain itself records about **Satoshi** and refuses to grade it above what the evidence supports. Neither leans on the other's conclusions.
 
 ## Boundaries
+
+**"Original" means the archived 2008–2009 artifacts**, not any live chain's claim to be the original;
+the laboratory takes no side among BTC, BCH, BSV or XEC, and its own executed evidence (the 2010
+value-overflow block) is why it declines the claim that the origin was better.
 
 **Not money, no conclusions, no warranty.** Everything here is experimental laboratory research in
 progress: it shows what re-runnable methods find and stops there. The experimental chains are stamped

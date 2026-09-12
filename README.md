@@ -22,7 +22,7 @@ way to specialize: override the file, do not weaken the default.
 - **[`common`](https://github.com/original-bitcoin-laboratory/common)** — umbrella: roadmap and
   cross-edition conformance.
 - **[`pre-genesis`](https://github.com/original-bitcoin-laboratory/pre-genesis)** — OBL-NOV08, the
-  November 2008 pre-release, live and joinable.
+  November 2008 pre-release, its constitution executed as the NOV08-X network.
 - **[`genesis`](https://github.com/original-bitcoin-laboratory/genesis)** — OBL-JAN09, the January
   2009 released client.
 - **[`bitcoin-whitepaper`](https://github.com/original-bitcoin-laboratory/bitcoin-whitepaper)** —

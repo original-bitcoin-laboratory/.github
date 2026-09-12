@@ -34,5 +34,5 @@ documentation. A claim that cannot be checked against a line is the thing being 
 
 <!--
 Optional but useful. Does this change a claim's grade — for example from a fact about the code to
-a fact about our commentary on it, or from [cryptographic] to [forensic]?
+a fact about our commentary on it, or from [cryptographic] to [statistical]?
 -->
