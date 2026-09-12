@@ -10,9 +10,11 @@ anyone re‑derive it from scratch.
 
 A third chain lives here too — **[Bitcoin](https://bitcoin-lab.org/bitcoin)** — which runs that same
 January 2009 client on a genesis of its own, with its own network and its own signed release. It is
-**not** a reconstruction, and it does not interoperate with the two above. It is the chain to look at
-first: it is the one executing Satoshi's actual binary on a live network, and **blocks 2–4 were mined
-by the released client itself**.
+**not** a reconstruction, and it does not interoperate with the two above. It is a 2026 experimental
+chain — not the Bitcoin of 2009 and not money — whose author "Satoshi Nakamoto" is an AI agent built
+in 2026: a program, not a person, and not the historical Satoshi. It is the chain to look at first: it
+runs the January 2009 client, rebuilt from the unmodified source, on a live network, and **every block
+after block 1 has been mined by the released client itself**.
 
 ## Repositories
 
@@ -23,7 +25,7 @@ by the released client itself**.
   executable reconstruction of Bitcoin **v0.1.0** + derivatives (script engine, UTXO ledger,
   wallet, P2P, the origin‑distance tracker, and more) — and the home of the
   **Bitcoin** chain ([`derivatives/bitcoin/`](https://github.com/original-bitcoin-laboratory/genesis/tree/main/derivatives/bitcoin)),
-  released as `Bitcoin-v0.1.4`.
+  released as `Bitcoin-v0.1.5`.
 - **[pre‑genesis](https://github.com/original-bitcoin-laboratory/pre-genesis)** — **OBL‑NOV08**:
   the Nov 2008 pre‑release witness + source inventory.
 - **[bitcoin‑whitepaper](https://github.com/original-bitcoin-laboratory/bitcoin-whitepaper)** —
@@ -49,12 +51,12 @@ by the released client itself**.
   ```
 - **[→ Bitcoin](https://bitcoin-lab.org/bitcoin)** — genesis `00000000ad12f3ec…`, mined at the
   original difficulty‑1, its coinbase carrying the front page of the day it was mined. The chain is
-  **live and still being mined**; the sealed evidence set currently covers blocks 0–4, and
+  **live and still being mined**; sealed findings sets cover the chain block by block, and
   [status.html](https://bitcoin-lab.org/status.html) reports the tip. *Not money.*
 - **[→ JAN09-X](https://bitcoin-lab.org/jan09x.html)** · **[→ NOV08-X](https://bitcoin-lab.org/nov08x.html)** — each reconstruction's own page: its genesis,
   its constitution as a source‑anchored table, its isolated network identity, and its live height.
 
-## What it found (honestly)
+## What it found
 
 - The origin was already a **general financial‑predicate engine** — full Script, escrow,
   hash‑locks, a shipped marketplace — at inception; the "programmability came later" story is
@@ -82,10 +84,9 @@ by the released client itself**.
 — the verifiable on-chain footprint of the original Satoshi, graded **[forensic], never
 [cryptographic]**.
 
-Two halves of one question, answered with different evidence. This laboratory gets to the bottom of
-**Bitcoin** by making the earliest code run and re-derive. That organization gets to the bottom of
-**Satoshi** by measuring what the chain itself records and refusing to grade it above what the
-evidence supports. Neither leans on the other's conclusions.
+Two halves of one question, answered with different evidence. This laboratory studies
+**Bitcoin** by making the earliest code run and re-derive. That organization measures what the
+chain itself records about **Satoshi** and refuses to grade it above what the evidence supports. Neither leans on the other's conclusions.
 
 ## Boundaries
 
