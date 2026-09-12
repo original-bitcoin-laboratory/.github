@@ -1,5 +1,10 @@
 # Original Bitcoin Laboratory
 
+> **Scope.** Experimental laboratory research, in progress and expected to change. It reports what
+> published, re-runnable methods find in public material — statistical and machine-verifiable
+> findings, graded by their evidence — and draws no conclusion beyond them. Not money, not advice,
+> no warranty. Details in [RIGHTS.md](https://github.com/original-bitcoin-laboratory/genesis/blob/main/RIGHTS.md).
+
 **An evidence‑first, *executable* reconstruction and neutral conformance study of the earliest
 Bitcoin** — the **November 2008 pre‑release** and the **January 2009 released client** —
 built entirely from two hash‑verified archives, with **nothing disabled** and **no chain
@@ -90,8 +95,9 @@ chain itself records about **Satoshi** and refuses to grade it above what the ev
 
 ## Boundaries
 
-**Not money.** The experimental chains are stamped *"not money"* — no premine, no sale, no
-promises. Authority is **only** the two hash‑verified archives + the whitepaper; everything else
+**Not money, no conclusions, no warranty.** Everything here is experimental laboratory research in
+progress: it shows what re-runnable methods find and stops there. The experimental chains are stamped
+*"not money"* — no premine, no sale, no promises. Authority is **only** the two hash‑verified archives + the whitepaper; everything else
 is measured neutrally against them. Reproduce everything with
 `python genesis/scripts/reproduce.py`.
 
