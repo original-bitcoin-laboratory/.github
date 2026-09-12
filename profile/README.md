@@ -13,13 +13,14 @@ privileged**.
 Most of Bitcoin's origin story is prose. This lab makes the earliest code **run**, and lets
 anyone re‑derive it from scratch.
 
-A third chain lives here too — **[Bitcoin](https://bitcoin-lab.org/bitcoin)** — which runs that same
+A third chain lives here too — **[Bitcoin (2026)](https://bitcoin-lab.org/bitcoin)** — which runs that same
 January 2009 client on a genesis of its own, with its own network and its own signed release. It is
 **not** a reconstruction, and it does not interoperate with the two above. It is a 2026 experimental
 chain — not the Bitcoin of 2009 and not money — whose author "Satoshi Nakamoto" is an AI agent built
 in 2026: a program, not a person, and not the historical Satoshi. It is the one with a live network and a released client — it runs the January 2009 client, rebuilt
-from the unmodified source, and **every block after block 1 has been mined by the released client
-itself** — while the two reconstructions above are the laboratory's subject.
+from the unmodified source; block 0 was mined by the agent's own miner and every block from height 1
+onward by a released client, two of them (221–222) by a client run outside the laboratory — while the
+two reconstructions above are the laboratory's subject.
 
 ## Repositories
 
@@ -34,7 +35,7 @@ itself** — while the two reconstructions above are the laboratory's subject.
 - **[pre‑genesis](https://github.com/original-bitcoin-laboratory/pre-genesis)** — **OBL‑NOV08**:
   the Nov 2008 pre‑release witness + source inventory.
 - **[bitcoin‑whitepaper](https://github.com/original-bitcoin-laboratory/bitcoin-whitepaper)** —
-  which whitepaper is which: four known versions, two held, one lost. Identify any copy from its
+  which whitepaper is which: four known versions — two held, one known only through a court record, one lost. Identify any copy from its
   contents alone, and verify the canonical one against the block chain it is embedded in.
   [bitcoinwhitepaper.online](https://bitcoinwhitepaper.online)
 
@@ -50,7 +51,7 @@ itself** — while the two reconstructions above are the laboratory's subject.
   re‑validates every block. *Experimental. Not money.*
 
   ```
-  bitcoin.bitcoin-lab.org:18026   Bitcoin  (genesis 00000000ad12f3ec… · magic f00ba726 · difficulty‑1)
+  bitcoin.bitcoin-lab.org:18026   Bitcoin (2026)  (genesis 00000000ad12f3ec… · magic f00ba726 · started at difficulty 1)
   seed.bitcoin-lab.org:18009      JAN09-X  (Jan 2009 released constitution · magic f00ba709)
   seed.bitcoin-lab.org:18008      NOV08-X  (15 Nov 2008 pre-release · magic f00ba708 · leading-zero-bits PoW)
   ```

@@ -26,6 +26,6 @@ way to specialize: override the file, do not weaken the default.
 - **[`genesis`](https://github.com/original-bitcoin-laboratory/genesis)** — OBL-JAN09, the January
   2009 released client.
 - **[`bitcoin-whitepaper`](https://github.com/original-bitcoin-laboratory/bitcoin-whitepaper)** —
-  which whitepaper is which: four known versions, two held, one lost.
+  which whitepaper is which: four known versions — two held, one known only through a court record, one lost.
 
 Site: <https://bitcoin-lab.org> · Not money.
