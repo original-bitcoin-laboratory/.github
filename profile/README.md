@@ -81,7 +81,7 @@ after block 1 has been mined by the released client itself**.
 ## The other half
 
 **[satoshi-onchain](https://github.com/satoshi-onchain)** · [satoshioncha.in](https://satoshioncha.in)
-— the verifiable on-chain footprint of the original Satoshi, graded **[forensic], never
+— the verifiable on-chain footprint of the original Satoshi, graded **[statistical], never
 [cryptographic]**.
 
 Two halves of one question, answered with different evidence. This laboratory studies
