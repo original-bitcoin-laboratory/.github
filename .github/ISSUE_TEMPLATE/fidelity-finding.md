@@ -8,7 +8,7 @@ assignees: ''
 
 <!--
 This project's claims are supposed to be re-derivable from two hash-verified archives. If one is
-not, that is a defect and it will be corrected in the open.
+not, that is a defect and it is corrected in the open.
 -->
 
 ## The claim
