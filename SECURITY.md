@@ -16,8 +16,8 @@ that nothing is at stake in them. That framing is what makes the rest of this po
 
 Every release is signed and OpenTimestamps-anchored, and the instructions for checking that are
 published beside it. If a signature, a digest, or a timestamp does not check out — or if a claim in
-the documentation is not supported by the source line it cites — that is a defect. It will be
-corrected in the open rather than argued about, and the correction will say what was wrong.
+the documentation is not supported by the source line it cites — that is a defect. It is
+corrected in the open rather than argued about, and the correction says what was wrong.
 
 That is the highest-value report this project can receive, and it is not a conventional
 vulnerability. It is treated as one here.
@@ -67,7 +67,7 @@ The maintainer's OpenPGP release-signing key is
 ## What to expect
 
 One maintainer, no service-level agreement, and no bounty. Reports are acknowledged when read and
-fixed in the open. A report that changes a published claim will be recorded as having done so,
+fixed in the open. A report that changes a published claim is recorded as having done so,
 with attribution if you want it and without if you do not.
 
 ## Supported versions

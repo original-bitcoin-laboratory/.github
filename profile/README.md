@@ -46,7 +46,7 @@ two reconstructions above are the laboratory's subject.
   (where an object qualifies as *a* Bitcoin or *a* satoshi — and where the answer is convention, not
   fact). *Distance is neutral; the origin is a choice.*
 - **[→ Join the live network](https://github.com/original-bitcoin-laboratory/genesis/blob/main/docs/ANNOUNCE.md)** —
-  **three** joinable chains. A node serves **Bitcoin**, and two always‑on anchors serve the two
+  **three** joinable chains. A node serves **Bitcoin**, and two live anchors serve the two
   reconstructions. Clone the repo and point a node at any of them — it syncs and independently
   re‑validates every block. *Experimental. Not money.*
 
@@ -70,7 +70,7 @@ two reconstructions above are the laboratory's subject.
 - Bitcoin's early maturation was **real safety engineering** (the origin shipped the consensus
   machinery but almost none of the *bounds*), mapped **neutrally, from the origin**.
 - Two reconstructions — **NOV08‑X** and **JAN09‑X** — carry the complete original vocabulary.
-  They are released as **candidates** (*"a* Bitcoin"), **never** as *"the* Bitcoin": which live
+  They are released as **candidates** (*"a* Bitcoin"), **not** as *"the* Bitcoin": which live
   network "is" Bitcoin has no factual answer — only convention.
 - The original source still **builds and runs on a pinned period toolchain** — from `sha.cpp` and
   the Script interpreter up to a full `bitcoin.exe` linked from the unmodified code (i686 · OpenSSL
@@ -87,7 +87,7 @@ two reconstructions above are the laboratory's subject.
 ## The other half
 
 **[satoshi-onchain](https://github.com/satoshi-onchain)** · [satoshioncha.in](https://satoshioncha.in)
-— the verifiable on-chain footprint of the original Satoshi, graded **[statistical], never
+— the verifiable on-chain footprint of the original Satoshi, graded **[statistical], not
 [cryptographic]**.
 
 Two halves of one question, answered with different evidence. This laboratory studies
