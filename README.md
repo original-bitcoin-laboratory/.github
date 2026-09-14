@@ -26,6 +26,11 @@ way to specialize: override the file, do not weaken the default.
 - **[`genesis`](https://github.com/original-bitcoin-laboratory/genesis)** — OBL-JAN09, the January
   2009 released client.
 - **[`bitcoin-whitepaper`](https://github.com/original-bitcoin-laboratory/bitcoin-whitepaper)** —
-  which whitepaper is which: four known versions — two held, one known only through a court record, one lost.
+  which whitepaper is which: four known versions — two held, one known only from the judgment in COPA v Wright (¶271.9), one lost.
 
-Site: <https://bitcoin-lab.org> · Not money.
+> **Scope.** Experimental laboratory research, in progress and expected to change. It reports what
+> published, re-runnable methods find in public material — statistical and machine-verifiable
+> findings, graded by their evidence — and draws no conclusion beyond them. Not money, not advice,
+> no warranty. Details in [RIGHTS.md](https://github.com/original-bitcoin-laboratory/genesis/blob/main/RIGHTS.md).
+
+Site: <https://bitcoin-lab.org>

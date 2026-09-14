@@ -19,7 +19,7 @@ January 2009 client on a genesis of its own, with its own network and its own si
 chain — not the Bitcoin of 2009 and not money — whose author "Satoshi Nakamoto" is an AI agent built
 in 2026: a program, not a person, and not the historical Satoshi. It is the one with a live network and a released client — it runs the January 2009 client, rebuilt
 from the unmodified source; block 0 was mined by the agent's own miner and every block from height 1
-onward by a released client, two of them (221–222) by a client run outside the laboratory — while the
+onward by a released client, ten of them (the first at 221–222) by client runs outside the laboratory — while the
 two reconstructions above are the laboratory's subject.
 
 ## Repositories
@@ -35,7 +35,7 @@ two reconstructions above are the laboratory's subject.
 - **[pre‑genesis](https://github.com/original-bitcoin-laboratory/pre-genesis)** — **OBL‑NOV08**:
   the Nov 2008 pre‑release witness + source inventory.
 - **[bitcoin‑whitepaper](https://github.com/original-bitcoin-laboratory/bitcoin-whitepaper)** —
-  which whitepaper is which: four known versions — two held, one known only through a court record, one lost. Identify any copy from its
+  which whitepaper is which: four known versions — two held, one known only from the judgment in COPA v Wright (¶271.9), one lost. Identify any copy from its
   contents alone, and verify the canonical one against the block chain it is embedded in.
   [bitcoinwhitepaper.online](https://bitcoinwhitepaper.online)
 
